@@ -1,11 +1,7 @@
 package net.valcrog.cheesemaster.event;
 
 import net.fabricmc.fabric.api.event.player.UseEntityCallback;
-import net.minecraft.client.resource.language.I18n;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityInteraction;
-import net.minecraft.entity.passive.CowEntity;
-import net.minecraft.entity.passive.PassiveEntity;
 import net.minecraft.entity.passive.SheepEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
@@ -18,7 +14,6 @@ import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.world.World;
 import net.valcrog.cheesemaster.item.ModItems;
 import org.jetbrains.annotations.Nullable;
-import net.minecraft.text.Text;
 
 public class InteractEntityHandler implements UseEntityCallback {
     public ActionResult interact(PlayerEntity player, World world, Hand hand, Entity entity, @Nullable EntityHitResult hitResult) {

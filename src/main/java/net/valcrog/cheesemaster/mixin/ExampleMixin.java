@@ -1,6 +1,5 @@
 package net.valcrog.cheesemaster.mixin;
 
-import net.valcrog.cheesemaster.Cheesemaster;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
