@@ -27,6 +27,6 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        Cheesemaster.LOGGER.info("Registering mod items for " + Cheesemaster.MOD_ID);
+
     }
 }
