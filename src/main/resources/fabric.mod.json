@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "cheesemaster",
+  "version": "0.0.1-1.18.2",
+  "name": "Cheesemaster",
+  "description": "\"Cheesemaster\" is a delightful Minecraft mod that brings the art of cheese-making to your blocky world. Craft cheese wheels, experiment with unique cheese recipes, and cultivate your own cheese farm!",
+  "authors": ["valcrog"],
+  "contact": {
+    "repo": "https://github.com/valcrog/Cheesemaster"
+  },
+  "license": "MIT",
+  "icon": "assets/cheesemaster/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.valcrog.cheesemaster.client.CheesemasterClient"
+    ],
+    "main": [
+      "net.valcrog.cheesemaster.Cheesemaster"
+    ]
+  },
+  "mixins": [
+    "cheesemaster.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
