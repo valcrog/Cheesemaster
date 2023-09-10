@@ -13,7 +13,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.valcrog.cheesemaster.client.CheesemasterClient"
+      "net.valcrog.cheesemaster.mixin.ExampleMixin"
     ],
     "main": [
       "net.valcrog.cheesemaster.Cheesemaster"

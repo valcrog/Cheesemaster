@@ -4,6 +4,7 @@
   "package": "net.valcrog.cheesemaster.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ExampleMixin"
   ],
   "client": [
   ],
