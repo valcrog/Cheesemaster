@@ -1,3 +1,8 @@
 {
-  "itemGroup.Cheesemaster.cheesemaster": "Cheesemaster"
+  "itemGroup.Cheesemaster.cheesemaster": "Cheesemaster",
+
+  "item.cheesemaster.cheesemakers_hat": "Cheesemakers Hat",
+  "item.cheesemaster.cheesemakers_apron": "Cheesemakers Apron",
+  "item.cheesemaster.cheesemakers_pants": "Cheesemakers Pants",
+  "item.cheesemaster.cheesemakers_boots": "Cheesemakers Boots"
 }
