@@ -11,9 +11,9 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    CHEESEMAKER("leather", 5, new int[]{1, 2, 3, 1}, 15,
+    CHEESEMAKER("cheesemaker", 5, new int[]{1, 2, 3, 1}, 15,
             SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
-        return Ingredient.ofItems(Items.LEATHER);
+        return Ingredient.ofItems(Items.SUGAR_CANE);
     });
 
     private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};
