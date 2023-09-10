@@ -22,6 +22,9 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.CHEESEMAKER, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.CHEESEMASTER)));
 
+    public static final Item RENNET_BAG = registerItem("rennet_bag",
+            new Item(new FabricItemSettings().group(ModItemGroup.CHEESEMASTER)));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Cheesemaster.MOD_ID, name), item);
     }
